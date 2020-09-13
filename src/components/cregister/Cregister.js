@@ -2,6 +2,7 @@ import React from "react";
 
 import "./cregister.css";
 import FormInput from "../form-input/FormInput";
+import CustomButton from "../custombutton/CustomButton";
 
 class Cregister extends React.Component {
   constructor(props) {
@@ -9,6 +10,7 @@ class Cregister extends React.Component {
     this.state = {
       email: "",
       password: "",
+      cpassword: "",
     };
   }
   handleSubmit = (e) => {
@@ -23,7 +25,7 @@ class Cregister extends React.Component {
 
   render() {
     return (
-      <div className="sign-in">
+      <div className="register">
         <h2>REGISTER</h2>
         <form onSubmit={this.handleSubmit}>
           <label for="email">Email-id</label>
@@ -53,7 +55,8 @@ class Cregister extends React.Component {
             value={this.state.cpassword}
             required
           />
-          <input type="submit" value="REGISTER" />
+
+          <CustomButton type="submit">REGISTER</CustomButton>
         </form>
       </div>
     );
