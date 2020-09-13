@@ -1,0 +1,20 @@
+.category-donor {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.donor-item {
+  width: 50vw;
+  background-color: brown;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.category-header {
+  font-size: 2rem;
+}

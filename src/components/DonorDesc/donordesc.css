@@ -1,0 +1,36 @@
+.category-patient-description {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description-header {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description-title {
+  font-size: 2rem;
+  color: brown;
+}
+.description {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: brown;
+  color: white;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.donor-button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid brown;
+  color: brown;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+}

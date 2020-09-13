@@ -8,7 +8,7 @@ const HomeButton = () => {
   return (
     <div className="b-container">
       <div>
-        <Link className="button" to="./donate">
+        <Link className="button" to="./category-donor">
           DONATE
         </Link>
       </div>
@@ -18,7 +18,7 @@ const HomeButton = () => {
         </Link>
       </div>
       <div>
-        <Link className="button" to="./patient">
+        <Link className="button" to="./category-patient">
           PATIENT
         </Link>
       </div>

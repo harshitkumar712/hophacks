@@ -6,6 +6,11 @@ import Register from "./pages/register/Register";
 import "./App.css";
 import HomePage from "./pages/homepage/HomePage";
 import Header from "./components/header/Header";
+import Cpatient from "./components/cpatient/Cpatient";
+import Cdonor from "./components/cdonor/Cdonor";
+import DonorDesc from "./components/DonorDesc/DonorDesc";
+import CDonate from "./components/Cdonate/CDonate";
+// import PatientDesc from "./components/PatientDesc/PatientDesc";
 
 function App() {
   return (
@@ -16,6 +21,24 @@ function App() {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/signin" component={SignIn} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/category-patient" component={Cpatient} />
+          <Route exact path="/category-donor" component={Cdonor} />
+
+          <Route
+            exact
+            path="/category-donor/category-description-donor"
+            component={DonorDesc}
+          />
+          <Route
+            exact
+            path="/category-donor/category-description-donor/donate"
+            component={CDonate}
+          />
+          {/* <Route
+            exact
+            path="/category-donor/category-description-patient"
+            component={PatientDesc}
+          /> */}
         </Switch>
       </BrowserRouter>
     </div>

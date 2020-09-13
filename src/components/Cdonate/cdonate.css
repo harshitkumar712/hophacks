@@ -1,0 +1,15 @@
+.donate {
+  width: 100vw;
+}
+.donate-inner {
+  background-color: brown;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65vw;
+}
