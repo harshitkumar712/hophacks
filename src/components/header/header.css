@@ -1,0 +1,21 @@
+.header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.option,
+.logo {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
