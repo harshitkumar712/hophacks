@@ -10,7 +10,7 @@ import Cpatient from "./components/cpatient/Cpatient";
 import Cdonor from "./components/cdonor/Cdonor";
 import DonorDesc from "./components/DonorDesc/DonorDesc";
 import CDonate from "./components/Cdonate/CDonate";
-// import PatientDesc from "./components/PatientDesc/PatientDesc";
+import PatientDesc from "./components/PatientDesc/PatientDesc";
 
 function App() {
   return (
@@ -31,14 +31,14 @@ function App() {
           />
           <Route
             exact
-            path="/category-donor/category-description-donor/donate"
+            path="/category-patient/category-description-patient/submit"
             component={CDonate}
           />
-          {/* <Route
+          <Route
             exact
-            path="/category-donor/category-description-patient"
+            path="/category-patient/category-description-patient"
             component={PatientDesc}
-          /> */}
+          />
         </Switch>
       </BrowserRouter>
     </div>

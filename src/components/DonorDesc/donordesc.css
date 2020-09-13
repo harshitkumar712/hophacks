@@ -26,11 +26,15 @@
 }
 
 .donor-button {
+  background-color: brown;
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
   border: 2px solid brown;
-  color: brown;
+  color: white;
   display: inline-block;
   margin-top: 2rem;
   border-radius: 1.5rem;
+}
+.donor-button:hover {
+  opacity: 0.9;
 }

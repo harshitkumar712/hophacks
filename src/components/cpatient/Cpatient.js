@@ -1,6 +1,7 @@
 import React from "react";
 import CATEGORY_DATA from "../categorydata/CategoryData";
 import "./Cpatient.css";
+import { Link } from "react-router-dom";
 
 class Cpatient extends React.Component {
   constructor() {
@@ -14,13 +15,17 @@ class Cpatient extends React.Component {
     return (
       <div className="category-patient">
         <div>
-          <h2 className="category-header">SELECT CATEGORIES </h2>
+          <h2 className="category-header">Select Categories </h2>
         </div>
         {this.state.data.map((data) => {
           return (
-            <div className="patient-item" key={data.id}>
+            <Link
+              to="./category-patient/category-description-patient"
+              className="patient-item"
+              key={data.id}
+            >
               {data.title}
-            </div>
+            </Link>
           );
         })}
       </div>

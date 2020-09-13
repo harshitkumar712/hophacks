@@ -1,0 +1,30 @@
+label {
+  font-size: 1.5rem;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  font-size: 2rem;
+  margin: 2px;
+}
+.patient-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+}
+.submit-button {
+  background-color: brown;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid brown;
+  color: white;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+}
+.submit-button:hover {
+  opacity: 0.9;
+}
