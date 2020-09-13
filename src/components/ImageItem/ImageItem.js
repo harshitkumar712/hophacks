@@ -8,7 +8,7 @@ const ImageItem = ({ imageUrl }) => {
       style={{
         backgroundImage: "url(" + imageUrl + ")",
         backgroundRepeat: "no-repeat",
-
+        backgroundSize: "cover",
         width: 300,
         height: 300,
       }}
